@@ -11,7 +11,7 @@
   *          This file contains:
   *           - Data structures and the address mapping for all peripherals
   *           - Peripheral's registers declarations and bits definition
-  *           - Macros to access peripheral’s registers hardware
+  *           - Macros to access peripheralï¿½s registers hardware
   *  
   ******************************************************************************
   * @attention
@@ -12173,10 +12173,10 @@ typedef struct
 #define TIM13_IRQHandler              TIM8_UP_IRQHandler
 #define CEC_IRQHandler                USBWakeUp_IRQHandler
 #define OTG_FS_WKUP_IRQHandler        USBWakeUp_IRQHandler
-#define CAN1_TX_IRQHandler            USB_HP_CAN1_TX_IRQHandler
+// #define CAN1_TX_IRQHandler            USB_HP_CAN1_TX_IRQHandler
 #define USB_HP_IRQHandler             USB_HP_CAN1_TX_IRQHandler
 #define USB_LP_IRQHandler             USB_LP_CAN1_RX0_IRQHandler
-#define CAN1_RX0_IRQHandler           USB_LP_CAN1_RX0_IRQHandler
+// #define CAN1_RX0_IRQHandler           USB_LP_CAN1_RX0_IRQHandler
 
 
 /**
